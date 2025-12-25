@@ -89,7 +89,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=jUE7Nf4AAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=fwc5AwYAAAAJ", "_blank");
         },
       },{
         id: 'social-semanticscholar',
