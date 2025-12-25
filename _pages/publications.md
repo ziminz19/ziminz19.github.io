@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: "For an up-to-date list of my publications, please refer to <a href='https://scholar.google.com/citations?hl=en&user=jUE7Nf4AAAAJ' style='color: #0066cc; text-decoration: underline;'>my Google Scholar profile</a>."
+description: "For an up-to-date list of my publications, please refer to <a href='https://scholar.google.com/citations?user=fwc5AwYAAAAJ&hl=en' style='color: #0066cc; text-decoration: underline;'>my Google Scholar profile</a>."
 nav: true
 nav_order: 2
 ---
