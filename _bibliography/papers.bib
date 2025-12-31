@@ -3,11 +3,14 @@
 
 @inproceedings{agarwal2025the,
   title     = {The Unreasonable Effectiveness of Entropy Minimization in {LLM} Reasoning},
-  author    = {Shivam Agarwal* and Zimin Zhang* and Lifan Yuan and Jiawei Han and Hao Peng},
+  author    = {Shivam Agarwal and Zimin Zhang and Lifan Yuan and Jiawei Han and Hao Peng},
   booktitle = {The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS)},
   year      = {2025},
   url       = {https://openreview.net/forum?id=UfFTBEsLgI},
-  selected  = {true}
+  selected  = {true},
+  abstract  = {Entropy minimization (EM) trains the model to concentrate even more probability mass on its most confident outputs. We show that this simple objective alone, without any labeled data, can substantially improve large language models’ (LLMs) performance on challenging math, physics, and coding tasks. We explore three approaches: (1) EM-FT minimizes token-level entropy similarly to instruction finetuning, but on unlabeled outputs drawn from the model; (2) EM-RL: reinforcement learning with negative entropy as the only reward to maximize; (3) EM-INF: inference-time logit adjustment to reduce entropy without any training data or parameter updates. On Qwen-7B, EM-RL, without any labeled data, achieves comparable or better performance than strong RL baselines such as GRPO and RLOO that are trained on 60K labeled examples. Furthermore, EM-INF enables Qwen-32B to match or exceed the performance of proprietary models like GPT-4o, Claude 3 Opus, and Gemini 1.5 Pro on the challenging SciCode benchmark, while being 3x more efficient than self-consistency and sequential refinement. Our findings reveal that many pretrained LLMs possess previously underappreciated reasoning capabilities that can be effectively elicited through entropy minimization alone, without any labeled data or even any parameter updates.},
+  pdf       = {papers/em_pt.pdf},
+  code      = {https://github.com/shivamag125/EM_PT}
 }
 
 @inproceedings{zhang-etal-2025-automated,
@@ -26,8 +29,10 @@
   publisher = {Association for Computational Linguistics},
   url       = {https://aclanthology.org/2025.coling-main.462/},
   pages     = {6918--6936},
-  abstract  = {Artificial intelligence (AI) is transforming scientific research, with explainable AI methods like concept-based models (CMs) showing promise for new discoveries. However, in molecular science, CMs are less common than black-box models like Graph Neural Networks (GNNs), due to their need for predefined concepts and manual labeling. This paper introduces the Automated Molecular Concept (AutoMolCo) framework, which leverages Large Language Models (LLMs) to automatically generate and label predictive molecular concepts. Through iterative concept refinement, AutoMolCo enables simple linear models to outperform GNNs and LLM in-context learning on several benchmarks. The framework operates without human knowledge input, overcoming limitations of existing CMs while maintaining explainability and allowing easy intervention. Experiments on MoleculeNet and High-Throughput Experimentation (HTE) datasets demonstrate that AutoMolCoinduced explainable CMs are beneficial for molecular science research.},
-  selected  = {true}
+  abstract  = {Artificial intelligence (AI) is transforming scientific research, with explainable AI methods like concept-based models (CMs) showing promise for new discoveries. However, in molecular science, CMs are less common than black-box models like Graph Neural Networks (GNNs), due to their need for predefined concepts and manual labeling. This paper introduces the Automated Molecular Concept (AutoMolCo) framework, which leverages Large Language Models (LLMs) to automatically generate and label predictive molecular concepts. Through iterative concept refinement, AutoMolCo enables simple linear models to outperform GNNs and LLM in-context learning on several benchmarks. The framework operates without human knowledge input, overcoming limitations of existing CMs while maintaining explainability and allowing easy intervention. Experiments on MoleculeNet and High-Throughput Experimentation (HTE) datasets demonstrate that AutoMolCo-induced explainable CMs are beneficial for molecular science research.},
+  selected  = {true},
+  pdf       = {papers/automolco.pdf},
+  code      = {https://github.com/ziminz19/AutoMolCo}
 }
 
 @misc{wang2024officebenchbenchmarkinglanguageagents,
@@ -37,13 +42,19 @@
   eprint        = {2407.19056},
   archiveprefix = {arXiv},
   primaryclass  = {cs.CL},
-  url           = {https://arxiv.org/abs/2407.19056}
+  url           = {https://arxiv.org/abs/2407.19056},
+  abstract      = {Office automation significantly enhances human productivity by automatically finishing routine tasks in the workflow. Beyond the basic information extraction studied in much of the prior document AI literature, the office automation research should be extended to more realistic office tasks which require to integrate various information sources in the office system and produce outputs through a series of decision-making processes. We introduce OfficeBench, one of the first office automation benchmarks for evaluating current LLM agents' capability to address office tasks in realistic office workflows. OfficeBench requires LLM agents to perform feasible long-horizon planning, proficiently switch between applications in a timely manner, and accurately ground their actions within a large combined action space, based on the contextual demands of the workflow. Applying our customized evaluation methods on each task, we find that GPT-4 Omni achieves the highest pass rate of 47.00%, demonstrating a decent performance in handling office tasks. However, this is still far below the human performance and accuracy standards required by real-world office workflows. We further observe that most issues are related to operation redundancy and hallucinations, as well as limitations in switching between multiple applications, which may provide valuable insights for developing effective agent frameworks for office automation.},
+  pdf           = {papers/officebench.pdf},
+  code          = {https://github.com/zlwang-cs/OfficeBench}
 }
 
 @inproceedings{du2025how,
   title     = {How Post-Training Reshapes {LLM}s: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence},
-  author    = {Hongzhe Du and Weikai Li and Min Cai and Karim Saraipour and Zimin Zhang and Himabindu Lakkaraju and Yizhou Sun and Shichang Zhang},
+  author    = {Hongzhe Du* and Weikai Li* and Min Cai and Karim Saraipour and Zimin Zhang and Himabindu Lakkaraju and Yizhou Sun and Shichang Zhang},
   booktitle = {Second Conference on Language Modeling (COLM)},
   year      = {2025},
-  url       = {https://openreview.net/forum?id=w5DSwn9wTC}
+  url       = {https://openreview.net/forum?id=w5DSwn9wTC},
+  abstract  = {Post-training is essential for the success of large language models (LLMs), transforming pre-trained base models into more useful and aligned post-trained models. While plenty of works have studied post-training algorithms and evaluated post-training models by their outputs, it remains understudied how post-training reshapes LLMs internally. In this paper, we compare base and post-trained LLMs mechanistically from four perspectives to better understand post-training effects. Our findings across model families and datasets reveal that: (1) Post-training does not change the factual knowledge storage locations, and it adapts knowledge representations from the base model while developing new knowledge representations; (2) Both truthfulness and refusal can be represented by vectors in the hidden representation space. The truthfulness direction is highly similar between the base and post-trained model, and it is effectively transferable for interventions; (3) The refusal direction is different between the base and post-trained models, and it shows limited forward transferability; (4) Differences in confidence between the base and post-trained models cannot be attributed to entropy neurons. Our study provides insights into the fundamental mechanisms preserved and altered during post-training, facilitates downstream tasks like model steering, and could potentially benefit future research in interpretability and LLM post-training.},
+  pdf       = {papers/pt_mech_analysis.pdf},
+  code      = {https://github.com/HZD01/post-training-mechanistic-analysis}
 }
