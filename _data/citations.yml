@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-26'
+  last_updated: '2026-01-02'
 papers:
   fwc5AwYAAAAJ:9yKSN-GCB0IC:
     citations: 27
@@ -10,10 +10,10 @@ papers:
     title: Automated molecular concept generation and labeling with large language models
     year: '2025'
   fwc5AwYAAAAJ:u-x6o8ySG0sC:
-    citations: 3
+    citations: 4
     title: 'How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence'
     year: '2025'
   fwc5AwYAAAAJ:u5HHmVD_uO8C:
-    citations: 60
+    citations: 63
     title: The unreasonable effectiveness of entropy minimization in llm reasoning
     year: '2025'
