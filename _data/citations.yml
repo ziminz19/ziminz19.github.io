@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-04'
+  last_updated: '2026-02-06'
 papers:
   fwc5AwYAAAAJ:9yKSN-GCB0IC:
     citations: 30
@@ -14,6 +14,6 @@ papers:
     title: 'How Post-Training Reshapes LLMs: A Mechanistic View on Knowledge, Truthfulness, Refusal, and Confidence'
     year: '2025'
   fwc5AwYAAAAJ:u5HHmVD_uO8C:
-    citations: 76
+    citations: 77
     title: The unreasonable effectiveness of entropy minimization in llm reasoning
     year: '2025'
