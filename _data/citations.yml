@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-04-24'
+  last_updated: '2026-05-01'
 papers:
   fwc5AwYAAAAJ:9yKSN-GCB0IC:
-    citations: 34
+    citations: 35
     title: 'Officebench: Benchmarking language agents across multiple applications for office automation'
     year: '2024'
   fwc5AwYAAAAJ:d1gkVwhDpl0C:
@@ -14,6 +14,6 @@ papers:
     title: 'How post-training reshapes LLMs: A mechanistic view on knowledge, truthfulness, refusal, and confidence'
     year: '2025'
   fwc5AwYAAAAJ:u5HHmVD_uO8C:
-    citations: 119
+    citations: 125
     title: The unreasonable effectiveness of entropy minimization in llm reasoning
     year: '2025'
