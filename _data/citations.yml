@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-08'
+  last_updated: '2026-06-19'
 papers:
   fwc5AwYAAAAJ:9yKSN-GCB0IC:
-    citations: 44
+    citations: 45
     title: 'Officebench: Benchmarking language agents across multiple applications for office automation'
     year: '2024'
   fwc5AwYAAAAJ:d1gkVwhDpl0C:
@@ -10,7 +10,7 @@ papers:
     title: Automated molecular concept generation and labeling with large language models
     year: '2025'
   fwc5AwYAAAAJ:u-x6o8ySG0sC:
-    citations: 14
+    citations: 15
     title: 'How post-training reshapes LLMs: A mechanistic view on knowledge, truthfulness, refusal, and confidence'
     year: '2025'
   fwc5AwYAAAAJ:u5HHmVD_uO8C:
